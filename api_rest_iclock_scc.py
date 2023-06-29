@@ -6,8 +6,8 @@ import json
 import requests
 from zk import ZK, const
 
-# creamos API REST - TOMCAT sistea EGOVF modulo SCC  afa636b2fb7cc7ef69d9a6b7ab1550e02472114f
-api_url = "http://200.7.161.114:8080/fhce-egovf-scc/marcado/afa636b2fb7cc7ef69d9a6b7ab1550e02472114f"
+# creamos API REST - TOMCAT sistea EGOVF modulo SCC
+api_url = "url"
 headers = {"Content-Type":"application/json"}
 respuesta = 0
 
