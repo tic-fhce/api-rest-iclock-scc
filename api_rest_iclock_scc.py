@@ -13,7 +13,7 @@ headers = {"Content-Type": "application/json"}
 respuesta = 0
 
 #Lista de Biometricos con tecnologia Iclock
-lista_biometrico = [['IP', port, False, 'lugar']]
+lista_biometrico = scc.LBIO
 conn = None
 
 while True:

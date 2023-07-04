@@ -1,2 +1,3 @@
 #CLASE DATOS DE CONECCION
-URL=''
+URL = ''
+LBIO = [['IP', port, False, 'lugar']]
