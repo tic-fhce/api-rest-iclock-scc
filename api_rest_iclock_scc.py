@@ -5,10 +5,11 @@ import time
 import json
 import requests
 from zk import ZK, const
+from base import scc
 
 # creamos API REST - TOMCAT sistea EGOVF modulo SCC
-api_url = "url"
-headers = {"Content-Type":"application/json"}
+api_url = scc.URL
+headers = {"Content-Type": "application/json"}
 respuesta = 0
 
 #Lista de Biometricos con tecnologia Iclock
