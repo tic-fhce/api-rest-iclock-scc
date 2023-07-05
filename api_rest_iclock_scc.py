@@ -4,8 +4,8 @@
 import time
 import json
 import requests
-from zk import ZK, const
-from base import scc
+from zk import ZK
+import scc
 
 # creamos API REST - TOMCAT sistea EGOVF modulo SCC
 api_url = scc.URL
